@@ -1,0 +1,64 @@
+.navbar {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    text-decoration: none;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #2daf2d;
+}
+
+.navbar a:hover {
+    background-color: rgb(160, 221, 155);
+}
+
+.heroimage {
+    display: grid;
+    grid-template-columns: 1f;
+    background-color: #333;
+    color: #2daf2d;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.heroimage h1 {
+    font-size: 45px;
+    margin: 0, 10px 0 0;
+    padding: 0;
+    margin-bottom: 0em;
+}
+
+.heroimage p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0em;
+    margin-bottom: 50px;
+}
